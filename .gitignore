@@ -1,0 +1,21 @@
+# Secrets and private files
+.env
+.env.*
+*.secret
+secrets/
+private/
+
+# Backup files
+*.bak
+*.old
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

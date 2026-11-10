@@ -27,7 +27,7 @@ hl.config({
 		kb_rules	= "",
 
 		--infamous xset r rate 200 35,
-		repeat_rate = 35,
+		repeat_rate = 30,
 		repeat_delay = 200,
 
 		follow_mouse	= 1,
@@ -60,9 +60,9 @@ hl.config({
         fullscreen_opacity = 1,
         blur = {
             size =0 ,
-            passes = 2,
-			vibrancy = 0.1696,
-            special = true,
+            passes = 0,
+			--vibrancy = 0.2796,
+            special = false,
         },
     },
 })
